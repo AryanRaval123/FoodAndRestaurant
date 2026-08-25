@@ -1,0 +1,16 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/aryanraval1910/food-app-config-repo.git
+          default-label: main
+          username: aryanraval1910
+          password: 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
+
